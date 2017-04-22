@@ -1,6 +1,6 @@
 # npmtest-http-errors
 
-#### basic test coverage for  [http-errors (v1.6.1)](https://github.com/jshttp/http-errors#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-http-errors.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-http-errors) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-http-errors.svg)](https://travis-ci.org/npmtest/node-npmtest-http-errors)
+#### basic test-coverage for  [http-errors (v1.6.1)](https://github.com/jshttp/http-errors#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-http-errors.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-http-errors) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-http-errors.svg)](https://travis-ci.org/npmtest/node-npmtest-http-errors)
 
 #### Create HTTP error objects
 
@@ -110,7 +110,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
